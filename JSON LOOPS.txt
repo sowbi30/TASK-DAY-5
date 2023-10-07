@@ -11,6 +11,10 @@ const jsonObject = {
 for (const key in jsonObject) {
   console.log(key, jsonObject[key]);
 }
+// ot name John
+age 30
+city New York
+
 
 Using a for...of loop (for iterating over iterable values, not applicable to objects directly):
 
@@ -27,6 +31,11 @@ for (const value of values) {
   console.log(value);
 }
 
+// ot 
+John
+30
+New York
+
 Using a forEach loop (for iterating over object properties):
 
 const jsonObject = {
@@ -38,3 +47,7 @@ const jsonObject = {
 Object.keys(jsonObject).forEach(key => {
   console.log(key, jsonObject[key]);
 });
+//ot 
+name John
+age 30
+city New York
